@@ -23,8 +23,6 @@ export const AddCategory = ({ onSentCategory }) => {
         onChange={onInputChange}
         value={inputValue}
       />
-
-      <button>Agregar</button>
     </form>
   );
 };
