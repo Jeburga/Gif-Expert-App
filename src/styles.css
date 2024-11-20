@@ -12,7 +12,7 @@
     background-color: white;
     border-radius: 5px;
     border: 1px solid rgb(97, 32, 158);
-    color: rgb(151, 22, 22);
+    color: rgb(0, 0, 0);
     font-size: 1.2rem;
     outline: none;
     padding: 10px 15px;
@@ -33,6 +33,10 @@
     font-size: 3rem;
     margin-bottom: 5px;
   }
+
+  p{
+    color: black;
+  }
   
   .card-grid {
     display: flex;
@@ -49,7 +53,7 @@
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
     display: flex;
     flex-direction: column;
-    height: 0%;  
+    height: 0%; 
     justify-content: center;
     margin-bottom: 20px;
     margin-right: 20px;
